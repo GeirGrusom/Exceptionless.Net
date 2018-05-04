@@ -99,7 +99,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{847AAE03
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptionless.TestHarness", "test\Exceptionless.TestHarness\Exceptionless.TestHarness.csproj", "{485643BC-C33E-485A-80CC-DBD2E3C3E44A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionlessTest", "ExceptionlessTest\ExceptionlessTest.csproj", "{5C04A2B3-B4D0-48EE-A008-784AD3F2ACA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFormsSample.Android", "XamarinFormsSample\XamarinFormsSample.Android\XamarinFormsSample.Android.csproj", "{44F6374E-5758-49F6-9E2C-644C27A9DE69}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XamarinFormsSample", "XamarinFormsSample\XamarinFormsSample\XamarinFormsSample.shproj", "{86CF076E-6B8E-46D6-8E07-2FDF97EC19FF}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		XamarinFormsSample\XamarinFormsSample\XamarinFormsSample.projitems*{44f6374e-5758-49f6-9e2c-644c27a9de69}*SharedItemsImports = 4
+		XamarinFormsSample\XamarinFormsSample\XamarinFormsSample.projitems*{86cf076e-6b8e-46d6-8e07-2fdf97ec19ff}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -201,6 +211,16 @@ Global
 		{485643BC-C33E-485A-80CC-DBD2E3C3E44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{485643BC-C33E-485A-80CC-DBD2E3C3E44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{485643BC-C33E-485A-80CC-DBD2E3C3E44A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C04A2B3-B4D0-48EE-A008-784AD3F2ACA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C04A2B3-B4D0-48EE-A008-784AD3F2ACA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C04A2B3-B4D0-48EE-A008-784AD3F2ACA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C04A2B3-B4D0-48EE-A008-784AD3F2ACA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F6374E-5758-49F6-9E2C-644C27A9DE69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F6374E-5758-49F6-9E2C-644C27A9DE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F6374E-5758-49F6-9E2C-644C27A9DE69}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{44F6374E-5758-49F6-9E2C-644C27A9DE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F6374E-5758-49F6-9E2C-644C27A9DE69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F6374E-5758-49F6-9E2C-644C27A9DE69}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -229,6 +249,8 @@ Global
 		{F7ABD87A-2D84-4962-9A97-EC2F864CFA21} = {D363E15F-621D-40E4-8C96-DEE41A7070FF}
 		{8DB42DED-86AE-4FC9-AE98-2884A0D607AC} = {847AAE03-9F4A-4920-9E56-8AECB915E2B6}
 		{485643BC-C33E-485A-80CC-DBD2E3C3E44A} = {847AAE03-9F4A-4920-9E56-8AECB915E2B6}
+		{5C04A2B3-B4D0-48EE-A008-784AD3F2ACA9} = {2CEE12C6-3840-4C01-A952-D3026B0A662A}
+		{44F6374E-5758-49F6-9E2C-644C27A9DE69} = {2CEE12C6-3840-4C01-A952-D3026B0A662A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBB2CC85-FF87-431B-865F-2F110B2A10E6}
